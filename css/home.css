@@ -29,6 +29,7 @@ header{
 	margin-top:13px;
 	border-bottom:1px solid #000;
 	text-align: center;
+	position: relative;
 }
 .head-nav li{
 	color:#333;
@@ -45,6 +46,53 @@ header{
 }
 .head-nav li a:hover{
 	color:#84d8d1;
+}
+.head-pull{
+	width:1224px;
+	height:300px;
+	margin:0 auto;
+	background:#fafafa;
+	position: absolute;
+	top:40px;
+	left:0;
+	display:none;
+}
+.pull-left{
+	width:660px;
+	height:300px;
+	float:left;
+	/*background-image:url("../img/19.jpeg");*/
+	/*background-size: cover;*/
+}
+
+.pull-right{
+	width:554px;
+	height:300px;
+	float:right;
+}
+.pull-right-list{
+	width:auto;
+	padding:10px;
+	margin-top:30px;
+	margin-right:30px;
+	float:left;
+}
+.pull-right-list li{
+	text-align:center;
+	font-size:12px;
+	line-height:13px;
+	color:#888;
+	padding:5px 0;
+	display:block;
+}
+
+.te{
+	text-align:center;
+	margin-bottom:20px;
+	font-size:16px;
+	color:#333;
+	line-height:18px;
+	padding:5px 0;
 }
 	/*头部结束*/
 
@@ -166,7 +214,7 @@ section{
 	float:left;
 	background-image:url("../img/2-2.jpeg");
 	background-size:cover;
-	background-position:top center;
+	background-position: center;
 }
 .floor-2-img-right{
 	width:350px;
@@ -245,6 +293,11 @@ footer{
 	color:#888;
 	padding:5px 0;
 	display:block;
+}
+.bottom-list li a:hover{
+	text-decoration: underline;
+	color:#000;
+
 }
 .bottom-list input{
 	width:177px;
